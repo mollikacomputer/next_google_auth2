@@ -13,7 +13,7 @@ const login = () => {
         return(
             <div>
                 <p> You are not signIn</p>
-                <button onClick={()=> signIn('google') } className="btn btn-success">SignIn</button>
+                <button onClick={()=> signIn('google') } className="btn btn-success">SignIn with google</button>
             </div>
         )
     }
